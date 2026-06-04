@@ -6,7 +6,7 @@ jobs:
   stale:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@997185467fa4f803885201cee163a9f38240193d # v10.1.1
+      - uses: actions/stale@eb5cf3af3ac0a1aa4c9c45633dd1ae542a27a899 # v10.3.0
         with:
           stale-issue-message: 'This issue has been marked stale because it has had no recent activity. Remove the Stale label or comment if this is still relevant for you.'
           stale-pr-message: 'This pull request is stale because it has had no recent activity. Remove the Stale label or comment if this is still relevant for you.'
